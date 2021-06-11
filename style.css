@@ -64,7 +64,7 @@ body{
 }
 body::after{
     animation: stars 20s ease-in-out infinite alternate;
-    background-image: url("../Fotos/stars1.png");
+    background-image: url("stars1.png");
     background-size: cover;
     content: "";
     height: 100%;
@@ -75,7 +75,7 @@ body::after{
     z-index: -1;
 }
 header{
-    background-image: url("../Fotos/BG.png");
+    background-image: url("BG.png");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -244,7 +244,7 @@ img{
     justify-content: center;
 }
 .data1{
-    background-image: url("../Fotos/IMG_2021-01-01_1.jpg");
+    background-image: url("IMG_2021-01-01_1.jpg");
     display: flex;
     justify-content: center;
 }
