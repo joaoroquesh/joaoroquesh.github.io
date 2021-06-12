@@ -25,6 +25,19 @@
         transform: translateX(50px);
     }
 }
+@keyframes stars2{
+    0%{
+        transform: translateX(-10px);
+        
+    }
+    50%{
+        transform: translateX(0px);
+        
+    }
+    100%{
+        transform: translateX(10px);
+    }
+}
 @keyframes ripple{
     to{
         opacity: 0;
@@ -526,6 +539,9 @@ img{
 
 @media only screen and (max-width: 40em) {
 
+    body::after{
+        animation: stars2 20s ease-in-out infinite alternate;
+    }
     .sombra img{
         width: 200px;
     }
