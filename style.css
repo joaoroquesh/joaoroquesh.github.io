@@ -49,7 +49,7 @@
 .has-show{
     animation: show 2s ease-in-out forwards;
 }
-/* GENERAL */
+/* ----------------------------------------------------------- GENERAL */
 
 *{
     font-family: catamaran, sans-serif;
@@ -64,7 +64,7 @@ body{
 }
 body::after{
     animation: stars 20s ease-in-out infinite alternate;
-    background-image: url("stars1.png");
+    background-image: url("../Fotos/stars1.png");
     background-size: cover;
     content: "";
     height: 100%;
@@ -75,7 +75,7 @@ body::after{
     z-index: -1;
 }
 header{
-    background-image: url("BG.png");
+    background-image: url("../Fotos/BG.png");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -108,7 +108,7 @@ svg{
     overflow-x: hidden;
 }
 h1{
-    font-weight: 900;
+    font-weight: 900 !important;
     font-size: 70px;
     margin: 0;
     margin-right: 10px;
@@ -118,14 +118,14 @@ h1{
     text-shadow: 2px 2px 2px #333;
 }
 h2{
-    font-weight: 900;
-    font-size: 50px;
+    font-weight: 900 !important;
+    font-size: 50px !important;
     margin: 0;
     margin-right: 10px;
     
 }
 h3{
-    font-weight: 400;
+    font-weight: 400 !important;
     font-size: 22px;
     margin: 0;
     margin-right: 10px;
@@ -133,19 +133,19 @@ h3{
     text-shadow: 2px 2px 2px #bbb;
 }
 h4{
-    font-weight: 600;
-    font-size: 26px;
+    font-weight: 600 !important;
+    font-size: 26px !important;
     margin: 0;
     margin-left: 10px;
 }
 p{
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 400 !important;
+    font-size: 18px !important;
     margin: 0;
 }
-/* GENERAL */
+/* ----------------------------------------------------------- GENERAL */
 
-/* BUTTON */
+/* -----------------------------------------------------------  BUTTON */
 
 #surprise{
     align-items: center;
@@ -186,17 +186,21 @@ p{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none !important;
     color: #ccc;
 }
 
 
-/* BUTTON*/
+/* ----------------------------------------------------------- BUTTON*/
 
 .topo{
     height: 120vh;
     text-align: left;
     padding: 30px;
+    width: 100%;
+}
+.sombra{
+    width: 100%;
 }
 .topo_text{
     z-index: 2;
@@ -205,12 +209,15 @@ a{
     justify-content: center;
     align-items: center;
     height: 90vh;
+    width: 100%;
+    margin:10px;
 }
 .title{
     height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin:0 10px;
 }
 .icon{
     height: 40vh;
@@ -223,7 +230,7 @@ img{
     z-index: 200;
 }
 
-/* EVENTS */
+/* ----------------------------------------------------------- EVENTS */
 
 .center{
     max-width: 800px;
@@ -243,8 +250,7 @@ img{
     display: flex;
     justify-content: center;
 }
-.data1{
-    background-image: url("IMG_2021-01-01_1.jpg");
+.data{
     display: flex;
     justify-content: center;
 }
@@ -262,6 +268,10 @@ img{
 }
 .event_desc, .event_polaroid{
     flex: 1;
+}
+
+.event_polaroid{
+    width: 800px;
 }
 
 .event_desc{
@@ -315,19 +325,138 @@ img{
     transition: 2s ease-in-out;
 }
 
-/* EVENTS */
+/* ----------------------------------------------------------- EVENTS */
 
 
+/* ----------------------------------------------------------- IMAGES */
+.btop{
+    background-position: top;
+}
+.img1{
+    background-image: url("IMG_2020-01-01.jpg");
+}
 
+.img2{
+    background-image: url("IMG_2020-01-04.jpg");
+}
 
+.img3{
+    background-image: url("IMG_2020-01-26.jpg");
+}
 
+.img4{
+    background-image: url("IMG_2020-02-10.jpg");
+}
 
+.img5{
+    background-image: url("IMG_2020-02-16.jpg");
+}
 
+.img6{
+    background-image: url("IMG_2020-03-18.jpg");
+}
 
+.img7{
+    background-image: url("IMG_2020-04-12.jpg");
+}
 
+.img8{
+    background-image: url("IMG_2020-04-21.jpg");
+}
 
+.img9{
+    background-image: url("IMG_2020-06-12.jpg");
+}
 
+.img10{
+    background-image: url("IMG_2020-06-20.jpg");
+}
 
+.img11{
+    background-image: url("IMG_2020-08-01.jpg");
+}
+
+.img12{
+    background-image: url("IMG_2020-08-30.jpg");
+}
+
+.img13{
+    background-image: url("IMG_2020-09-05.jpg");
+}
+
+.img14{
+    background-image: url("IMG_2020-09-13.jpg");
+}
+
+.img15{
+    background-image: url("IMG_2020-09-20.jpg");
+}
+
+.img16{
+    background-image: url("IMG_2020-10-15_2.jpg");
+}
+
+.img17{
+    background-image: url("IMG_2020-11-01.jpg");
+}
+
+.img18{
+    background-image: url("IMG_2020-11-15_3.jpg");
+}
+
+.img19{
+    background-image: url("IMG_2020-12-05.jpg");
+}
+
+.img20{
+    background-image: url("IMG_2020-12-19.jpg");
+}
+
+.img21{
+    background-image: url("IMG_2020-12-24.jpg");
+}
+
+.img22{
+    background-image: url("IMG_2021-01-01_1.jpg");
+}
+
+.img23{
+    background-image: url("IMG_2021-01-23.jpg");
+}
+
+.img24{
+    background-image: url("IMG_2021-02-08.jpg");
+}
+
+.img25{
+    background-image: url("IMG_2021-03-03.jpg");
+}
+
+.img26{
+    background-image: url("IMG_2021-03-19.jpg");
+}
+
+.img27{
+    background-image: url("IMG_2021-04-23.jpg");
+}
+
+.img28{
+    background-image: url("IMG_2021-05-08_2.jpg");
+}
+
+.img29{
+    background-image: url("IMG_2021-05-16.jpg");
+}
+
+.img30{
+    background-image: url("IMG_2021-06-03.jpg");
+}
+
+.img31{
+    background-image: url("IMG_2021-06-06.jpg");
+}
+
+/* ----------------------------------------------------------- IMAGES */
 
 
 
@@ -399,7 +528,16 @@ img{
 
 @media only screen and (max-width: 40em) {
 
-
+    .sombra img{
+        width: 200px;
+    }
+    .event_desc{
+        display: none;
+    }
+    .event_polaroid{
+        width: 250px;
+    }
+    
 }   
 
 /* End of small Screens
@@ -424,6 +562,9 @@ img{
 
 @media only screen and (min-width: 64em) and (max-width: 90em) { 
 
+    h1{
+        font-size: 70px !important;
+    }
    .page-container {
       width: 1024px;
       
@@ -440,6 +581,9 @@ img{
 
 @media only screen and (min-width: 90.063em) {
       
+    h1{
+        font-size: 70px !important;
+    }
    .page-container {
       width: 1320px;
    }
