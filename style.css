@@ -122,9 +122,11 @@ svg{
 }
 h1{
     font-weight: 900 !important;
+    font-size: 40px ;
     margin: 0;
     margin-right: 10px;
     text-transform: uppercase;
+    line-height: 70px;
     color: #b7180e;
     text-shadow: 2px 2px 2px #333;
 }
@@ -137,7 +139,6 @@ h2{
 }
 h3{
     font-weight: 400 !important;
-    font-size: 22px;
     margin: 0;
     margin-right: 10px;
     color: #333;
