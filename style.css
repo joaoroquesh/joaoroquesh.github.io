@@ -584,6 +584,7 @@ img{
       
     h1{
         font-size: 70px !important;
+        line-height: 60px;
     }
    .page-container {
       width: 1320px;
