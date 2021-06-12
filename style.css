@@ -123,9 +123,10 @@ svg{
 h1{
     font-weight: 900 !important;
     font-size: 40px ;
+    margin: 0;
     margin-right: 10px;
     text-transform: uppercase;
-    line-height: 50px;
+    line-height: 70px;
     color: #b7180e;
     text-shadow: 2px 2px 2px #333;
 }
