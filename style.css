@@ -529,7 +529,7 @@ img{
 @media only screen and (max-width: 40em) {
 
     .sombra img{
-        width: 200px;
+        width: 300px;
     }
     .event_desc{
         display: none;
