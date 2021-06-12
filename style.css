@@ -126,7 +126,7 @@ h1{
     margin: 0;
     margin-right: 10px;
     text-transform: uppercase;
-    line-height: 70px;
+    line-height: 50px;
     color: #b7180e;
     text-shadow: 2px 2px 2px #333;
 }
@@ -544,7 +544,7 @@ img{
         animation: stars2 20s ease-in-out infinite alternate;
     }
     .sombra img{
-        width: 200px;
+        width: 150px;
     }
     .event_desc{
         display: none;
