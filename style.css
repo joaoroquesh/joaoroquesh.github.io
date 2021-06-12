@@ -527,13 +527,13 @@ img{
 @media only screen and (max-width: 40em) {
 
     .sombra img{
-        width: 300px;
+        width: 200px;
     }
     .event_desc{
         display: none;
     }
     .event_polaroid{
-        width: 250px;
+        width: 300px;
     }
     
 }   
